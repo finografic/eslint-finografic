@@ -1,0 +1,55 @@
+{
+  "name": "eslint-finografic",
+  "version": "1.0.0",
+  "description": "Custom finografic ESlint configuration (and wizard ?)",
+  "author": {
+    "name": "Justin Blair Rankin",
+    "email": "justin.blair.rankin@gmail.com",
+    "url": "http://finografic.github.io/cv-justin-rankin"
+  },
+  "license": "MIT",
+  "main": "./index.js",
+  "homepage": "https://github.com/finografic/eslint-config-finografic",
+  "devDependencies": {
+    "eslint": "^6.2.2",
+    "eslint-plugin-import": "^2.18.0",
+    "eslint-plugin-node": "^10.0.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.0"
+  },
+  "peerDependencies": {
+    "eslint": ">=6.2.2",
+    "eslint-plugin-import": ">=2.18.0",
+    "eslint-plugin-node": ">=9.1.0",
+    "eslint-plugin-promise": ">=4.2.1",
+    "eslint-plugin-standard": ">=4.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/finografic/eslint-finografic.git",
+    "url-ALT": "git://github.com/finografic/eslint-finografic.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/@finografic"
+  },
+  "scripts": {
+    "lint": "eslint . --config=eslintrc.json",
+    "test": "npm run lint && tape test/*.js"
+  },
+  "keywords": [
+    "JavaScript Standard Style",
+    "checker",
+    "code",
+    "code checker",
+    "code linter",
+    "code standards",
+    "code style",
+    "eslint",
+    "eslintconfig",
+    "lint",
+    "style",
+    "style checker",
+    "style linter",
+    "verify"
+  ]
+}
